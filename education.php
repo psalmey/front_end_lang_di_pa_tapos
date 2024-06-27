@@ -25,9 +25,9 @@ $result = $conn->query($sql);
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-
        <!--=============== CSS ===============-->
       <link rel="stylesheet" href="style.css">
+      
     <style>
         body {
             background-color: black;
@@ -64,19 +64,16 @@ $result = $conn->query($sql);
                             <a href="about.php" class="nav__link">About</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Education</a>
+                            <a href="education.php" class="nav__link">Education</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Services</a>
+                            <a href="portfolio.php" class="nav__link">Portfolio</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Portfolio</a>
+                            <a href="contact.php" class="nav__link">Contact</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Contact</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Edit</a>
+                            <a href="login.php" class="nav__link">Log In</a>
                         </li>
                     </ul>
                     <!--Close button-->

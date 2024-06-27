@@ -23,7 +23,7 @@
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
            <nav class="nav container">
-                <a href="#" class="nav__logo">
+                <a href="index.php" class="nav__logo">
                     andal.io
                 </a>
 
@@ -36,19 +36,16 @@
                             <a href="about.php" class="nav__link">About</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Education</a>
+                            <a href="education.php" class="nav__link">Education</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Services</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">Portfolio</a>
+                            <a href="portfolio.php" class="nav__link">Portfolio</a>
                         </li>
                         <li class="nav__item">
                             <a href="contact.php" class="nav__link">Contact</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav__link">Edit</a>
+                            <a href="login.php" class="nav__link">Log In</a>
                         </li>
                     </ul>
                     <!--Close button-->

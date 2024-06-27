@@ -51,7 +51,7 @@ $result = $conn->query($sql);
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">andal.io</a>
+            <a href="index.php" class="nav__logo">andal.io</a>
 
             <div class="nav__menu" id="nav_menu">
                 <ul class="nav__list">
@@ -62,19 +62,16 @@ $result = $conn->query($sql);
                         <a href="about.php" class="nav__link">About</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Education</a>
+                        <a href="education.php" class="nav__link">Education</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Services</a>
+                        <a href="portfolio.php" class="nav__link">Portfolio</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Portfolio</a>
+                        <a href="contact.php" class="nav__link">Contact</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Contact</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Edit</a>
+                        <a href="login.php" class="nav__link">Log In</a>
                     </li>
                 </ul>
                 <!-- Close button -->

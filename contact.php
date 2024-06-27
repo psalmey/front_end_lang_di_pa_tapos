@@ -43,6 +43,8 @@ $conn->close();
     <title>Contact Us</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!--CSS ]-->
+    <link rel="stylesheet" href="style.css">
     <!-- Custom CSS -->
     <style>
         /* Optional: Custom styles for additional formatting */
@@ -74,19 +76,16 @@ $conn->close();
                         <a href="about.php" class="nav__link">About</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Education</a>
+                        <a href="education.php" class="nav__link">Education</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Services</a>
+                        <a href="portfolio.php" class="nav__link">Portfolio</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Portfolio</a>
+                        <a href="contact.php" class="nav__link">Contact</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#" class="nav__link">Contact</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Edit</a>
+                        <a href="login.php" class="nav__link">Log In</a>
                     </li>
                 </ul>
                 <!-- Close button-->
